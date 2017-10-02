@@ -3,7 +3,7 @@ This application is one of collage projects.
 
 
 # 1. Overview
-  Application to listening music with created your own equalizer profile.
+  Application designed for listening music with created your own equalizer profile.
   
 
 # 2. Detailed description of activities and features
@@ -22,7 +22,7 @@ This application is one of collage projects.
  
  
     ### 2.2.1 Loading profile
-     [GIF]
+      ![](https://raw.githubusercontent.com/MarcinGrzeszczak-Portfolio/Korektor-Graficzny/master/screenshots/LoadingProfile.gif)
    
    
    ### 2.2.2 Deleting profile
