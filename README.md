@@ -21,8 +21,8 @@ This application is one of collage projects.
 
  
  
-    ### 2.2.1 Loading profile
-      ![](https://raw.githubusercontent.com/MarcinGrzeszczak-Portfolio/Korektor-Graficzny/master/screenshots/LoadingProfile.gif)
+  ### 2.2.1 Loading profile
+  ![](https://raw.githubusercontent.com/MarcinGrzeszczak-Portfolio/Korektor-Graficzny/master/screenshots/LoadingProfile.gif)
    
    
    ### 2.2.2 Deleting profile
