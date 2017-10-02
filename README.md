@@ -8,7 +8,7 @@ This application is one of collage projects.
 
 # 2. Detailed descriptions activities and features
 
-  ## 2.1 Start activity
+  ## 2.1 Start activit
     In this activity you can start listening music with new equalizer profile by clicking on Start button.
     Also you can load already created profile by clicking on Load button.
     
