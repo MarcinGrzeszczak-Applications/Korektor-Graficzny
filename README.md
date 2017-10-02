@@ -9,20 +9,19 @@ This application is one of collage projects.
 # 2. Detailed descriptions activities and features
 
   ## 2.1 Start activit
-    In this activity you can start listening music with new equalizer profile by clicking on Start button.
-    Also you can load already created profile by clicking on Load button.
-    
-    ![alt text](https://raw.githubusercontent.com/MarcinGrzeszczak-Portfolio/Korektor-Graficzny/master/screenshots/StartActivity.gif)
+   In this activity you can start listening music with new equalizer profile by clicking on Start button.
+   Also you can load already created profile by clicking on Load button.
+   ![alt text](https://raw.githubusercontent.com/MarcinGrzeszczak-Portfolio/Korektor-Graficzny/master/screenshots/StartActivity.gif)
     
     
  ## 2.2 Load activity
-    In this activity you can load or remove saved equalizer profiles.
+   In this activity you can load or remove saved equalizer profiles.
     
-    [PICTURE]
+   [PICTURE]
  
  
     ### 2.2.1 Loading profile
-      [GIF]
+     [GIF]
    
    
    ### 2.2.2 Deleting profile
