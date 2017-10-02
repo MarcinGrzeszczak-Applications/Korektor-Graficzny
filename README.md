@@ -33,11 +33,11 @@ This application is one of collage projects.
    In this activity you can listen music, and change equalizer parameters.
    Also is possible to save current equalizer parameters.
    
-   ### 2.3.1 Changing equalizer parameters.
-    [GIF]
+  ### 2.3.1 Changing equalizer parameters.
+  ![](https://raw.githubusercontent.com/MarcinGrzeszczak-Portfolio/Korektor-Graficzny/master/screenshots/ChangingParameters.gif) 
    
-   ### 2.3.2 Saving current parameters.
-    [GIF]
+  ### 2.3.2 Saving current parameters.
+  ![](https://raw.githubusercontent.com/MarcinGrzeszczak-Portfolio/Korektor-Graficzny/master/screenshots/SavingProfile.gif)  
    
    
    
