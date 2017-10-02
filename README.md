@@ -6,7 +6,7 @@ This application is one of collage projects.
   Application to listening music with created your own equalizer profile.
   
 
-# 2. Detailed descriptions activities and features
+# 2. Detailed description of activities and features
 
   ## 2.1 Start activit
    In this activity you can start listening music with new equalizer profile by clicking on Start button.
