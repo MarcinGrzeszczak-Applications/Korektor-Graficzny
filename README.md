@@ -25,8 +25,9 @@ This application is one of collage projects.
   ![](https://raw.githubusercontent.com/MarcinGrzeszczak-Portfolio/Korektor-Graficzny/master/screenshots/LoadingProfile.gif)
    
    
-   ### 2.2.2 Deleting profile
-    [GIF]
+  ### 2.2.2 Deleting profile
+  ![](https://raw.githubusercontent.com/MarcinGrzeszczak-Portfolio/Korektor-Graficzny/master/screenshots/DeletingProfile.gif)
+
 
 ## 2.3 Main activity
    In this activity you can listen music, and change equalizer parameters.
