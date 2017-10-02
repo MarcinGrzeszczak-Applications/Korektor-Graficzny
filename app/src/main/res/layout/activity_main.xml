@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.gruz.korektorgraficzny.UI.Main">
+
+    <RelativeLayout
+        android:id="@+id/player_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:src="@drawable/ic_album_white_36dp"
+            android:background="#9e9e9e"
+            android:id="@+id/album_picture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp" />
+
+        <SeekBar
+            style="@style/StartTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/music_SseekBar"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/album_picture"
+            android:layout_toEndOf="@+id/album_picture" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/music_SseekBar"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/music_play_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_play_arrow_green_800_36dp" />
+
+            <ImageView
+                android:id="@+id/music_stop_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_stop_green_800_36dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/music_list_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_list_green_800_36dp"
+            android:layout_below="@+id/music_SseekBar"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/player_layout">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/scale"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_above="@+id/seekbar_text_1">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+15 dB -"
+                        android:layout_alignParentTop="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-15 dB -"
+                        android:layout_alignParentBottom="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0 dB -"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+                <com.apps.gruz.korektorgraficzny.CustomViews.VerticalSeekBar
+                    android:id="@+id/seekbar_1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:progress="50"
+                    style="@style/StartTheme"
+                    android:thumb="@drawable/ic_fiber_manual_record_indigo_500_24dp"
+                    android:progressDrawable="@drawable/progress" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/seekbar_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@id/scale"
+                android:layout_alignEnd="@+id/scale"
+                android:text="60\nHz"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp">
+
+            <com.apps.gruz.korektorgraficzny.CustomViews.VerticalSeekBar
+                android:id="@+id/seekbar_2"
+                android:thumb="@drawable/ic_fiber_manual_record_indigo_500_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/seekbar_text_2"
+                android:progressDrawable="@drawable/progress" />
+
+            <TextView
+                android:id="@+id/seekbar_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="230\nHz"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp">
+
+            <com.apps.gruz.korektorgraficzny.CustomViews.VerticalSeekBar
+                android:id="@+id/seekbar_3"
+                android:thumb="@drawable/ic_fiber_manual_record_indigo_500_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/seekbar_text_3"
+                android:progressDrawable="@drawable/progress" />
+
+            <TextView
+                android:id="@+id/seekbar_text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="910\nHz"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp">
+
+            <com.apps.gruz.korektorgraficzny.CustomViews.VerticalSeekBar
+                android:id="@+id/seekbar_4"
+                android:thumb="@drawable/ic_fiber_manual_record_indigo_500_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/seekbar_text_4"
+                android:progressDrawable="@drawable/progress" />
+
+            <TextView
+                android:id="@+id/seekbar_text_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="3.6\nkHz"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp">
+
+            <com.apps.gruz.korektorgraficzny.CustomViews.VerticalSeekBar
+                android:id="@+id/seekbar_5"
+                android:thumb="@drawable/ic_fiber_manual_record_indigo_500_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/seekbar_text_5"
+                android:progressDrawable="@drawable/progress" />
+
+            <TextView
+                android:id="@+id/seekbar_text_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="140\nkHz"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

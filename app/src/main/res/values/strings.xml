@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Korektor Graficzny</string>
+    <string name="start_button">START</string>
+    <string name="load_button">WCZYTAJ</string>
+
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Anuluj</string>
+
+    <string name="remove_title_dialog">Usuwanie</string>
+    <string name="remove_text_dialog">Czy chcesz usunąć dany element ?</string>
+
+    <string name="action_save">Zapisz</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="action_about">O aplikacji</string>
+    <string name="action_exit">Zakończ</string>
+
+    <string name="enter_name">Wprowadź nazwę</string>
+
+</resources>
