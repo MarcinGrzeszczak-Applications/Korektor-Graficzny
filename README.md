@@ -11,7 +11,7 @@ This application is one of collage projects.
   ## 2.1 Start activit
    In this activity you can start listening music with new equalizer profile by clicking on Start button.
    Also you can load already created profile by clicking on Load button.
-   ![](https://raw.githubusercontent.com/MarcinGrzeszczak-Portfolio/Korektor-Graficzny/master/screenshots/StartActivity.gif|width=200)
+   ![](https://raw.githubusercontent.com/MarcinGrzeszczak-Portfolio/Korektor-Graficzny/master/screenshots/StartActivity.gif)
     
     
  ## 2.2 Load activity
