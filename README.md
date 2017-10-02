@@ -17,7 +17,8 @@ This application is one of collage projects.
  ## 2.2 Load activity
    In this activity you can load or remove saved equalizer profiles.
     
-   [PICTURE]
+   ![](https://raw.githubusercontent.com/MarcinGrzeszczak-Portfolio/Korektor-Graficzny/master/screenshots/LoadingActivity.png)
+
  
  
     ### 2.2.1 Loading profile
